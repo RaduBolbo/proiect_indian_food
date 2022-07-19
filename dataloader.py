@@ -15,7 +15,7 @@ classes = ('burger', 'butter_naan', 'chai', 'chapati',
 
 
 def resize (img):
-    img = cv2.resize (img, (412, 412), interpolation = cv2.INTER_AREA)
+    img = cv2.resize (img, (512, 512), interpolation = cv2.INTER_AREA)
     return img
 '''
 def one_hot_encoding(label_list):

@@ -60,7 +60,7 @@ images, labels = dataiter.next()
 ##################################### RETEAUA ###############################################
 
 
-net = Net10() # * de aici schimb arhitectura
+net = Net9() # * de aici schimb arhitectura
 
 ###################################### TRAIN ################################################
 
